@@ -1,0 +1,33 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "New Recruit Card",
+            "wrap": true
+        },
+        {
+            "type": "Input.Text",
+            "placeholder": "Boberto Johnsonson",
+            "label": "Name",
+            "id": "RecruitName"
+        },
+        {
+            "type": "Input.Text",
+            "placeholder": "bobjohn@missiannagamelab.onmicrosoft.com",
+            "id": "RecruitEmail",
+            "label": "Email"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Action.Submit"
+                }
+            ]
+        }
+    ]
+}
